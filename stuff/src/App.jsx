@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
 import './App.css'
 
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8005'
+
 function GoalsPage() {
     const [goals, setGoals] = useState([])
     const [newGoal, setNewGoal] = useState('')
@@ -15,7 +17,7 @@ function GoalsPage() {
 
     const fetchGoals = async () => {
         try {
-            const response = await fetch('http://localhost:8000/goals')
+            const response = await fetch(`${API_BASE_URL}/goals`)
             const data = await response.json()
             setGoals(data)
         } catch (error) {
@@ -27,7 +29,7 @@ function GoalsPage() {
         e.preventDefault()
         if (newGoal.trim()) {
             try {
-                const response = await fetch('http://localhost:8000/goals', {
+                const response = await fetch(`${API_BASE_URL}/goals`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -113,7 +115,7 @@ function PlanPage() {
 
     const fetchPlan = async () => {
         try {
-            const response = await fetch('http://localhost:8000/plan')
+            const response = await fetch(`${API_BASE_URL}/plan`)
             const data = await response.json()
             setPlan(data)
         } catch (error) {

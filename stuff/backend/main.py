@@ -4,11 +4,36 @@ from pydantic import BaseModel
 from typing import List
 import os
 import csv
+import re
+import logging
 from pathlib import Path
 from difflib import get_close_matches
 from openai import OpenAI
 
 app = FastAPI()
+
+LOG_PATH = Path(__file__).resolve().parent / "backend.log"
+
+
+def _configure_file_logging() -> None:
+    """Write backend runtime logs to backend.log for easier debugging in editor."""
+    formatter = logging.Formatter("%(asctime)s %(levelname)s %(name)s: %(message)s")
+    file_handler = logging.FileHandler(LOG_PATH, encoding="utf-8")
+    file_handler.setLevel(logging.INFO)
+    file_handler.setFormatter(formatter)
+
+    for logger_name in ["uvicorn", "uvicorn.error", "uvicorn.access", "backend"]:
+        logger = logging.getLogger(logger_name)
+        logger.setLevel(logging.INFO)
+        # Avoid duplicate handlers on reload.
+        if not any(isinstance(h, logging.FileHandler) and getattr(h, "baseFilename", "") == str(LOG_PATH) for h in logger.handlers):
+            logger.addHandler(file_handler)
+        if logger_name in {"uvicorn.error", "uvicorn.access", "backend"}:
+            logger.propagate = False
+
+
+_configure_file_logging()
+logger = logging.getLogger("backend")
 
 # Allow CORS for the frontend
 app.add_middleware(
@@ -21,6 +46,13 @@ app.add_middleware(
 
 # In-memory storage for goals
 goals = []
+
+# In-memory downstream artifact for post-processing pipelines.
+downstream_object = {
+    "major": "",
+    "keywords": [],
+    "major_keywords_concat": "",
+}
 
 class Goal(BaseModel):
     text: str
@@ -44,8 +76,9 @@ def load_majors(csv_path: str) -> List[str]:
 
 MAJORS_LIST = load_majors(Path(__file__).resolve().parents[1] / 'Majors.csv')
 
-# Initialize OpenAI client
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# Initialize OpenAI client (optional)
+openai_api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=openai_api_key) if openai_api_key else None
 
 def suggest_major(goals_list):
     if not goals_list:
@@ -59,6 +92,52 @@ def suggest_major(goals_list):
         f"Majors: {majors_text}\n\n"
         f"Goals:\n{goals_text}\n"
     )
+
+    # Deterministic fallback scoring that does not require OpenAI.
+    def fallback_major() -> str:
+        text = goals_text.lower()
+        tokens = re.findall(r"\w+", text)
+
+        # Broad domain intent hints (general-purpose, not prompt-specific).
+        intent_hints = {
+            "Computer Science": {"software", "coding", "programming", "developer", "engineer", "technology", "tech", "computer", "ai", "data", "google", "microsoft", "meta", "amazon", "apple", "nvidia", "openai", "tesla"},
+            "Business": {"business", "management", "leader", "leadership", "finance", "economics", "company", "startup", "market", "global", "travel", "policy", "senator", "government", "politics", "political", "public", "diplomacy", "law"},
+            "Engineering": {"engineering", "design", "build", "hardware", "systems", "mechanical", "electrical", "infrastructure"},
+            "Biology": {"biology", "medical", "medicine", "health", "genetics", "biochem", "lab", "organism"},
+            "Psychology": {"psychology", "mental", "behavior", "social", "people", "counseling", "therapy"},
+        }
+
+        hint_scores = {m: 0 for m in majors_info.keys()}
+        for major_name, hints in intent_hints.items():
+            hint_scores[major_name] = sum(1 for t in tokens if t in hints)
+
+        hinted_major = max(hint_scores, key=hint_scores.get)
+        if hint_scores[hinted_major] > 0:
+            return hinted_major
+
+        score_map = {m: 0 for m in majors_info.keys()}
+
+        for major_name, info in majors_info.items():
+            major_lower = major_name.lower()
+            if major_lower in text:
+                score_map[major_name] += 3
+
+            for job in info.get("jobs", []):
+                for token in job.lower().split():
+                    if len(token) >= 4 and token in text:
+                        score_map[major_name] += 2
+
+            for skill in info.get("skills", []):
+                for token in skill.lower().split():
+                    if len(token) >= 4 and token in text:
+                        score_map[major_name] += 1
+
+        best_major = max(score_map, key=score_map.get)
+        # Never return Undecided in fallback; use a neutral default major when no signal exists.
+        return best_major if score_map[best_major] > 0 else "Business"
+
+    if not client:
+        return fallback_major()
 
     try:
         response = client.chat.completions.create(
@@ -77,10 +156,10 @@ def suggest_major(goals_list):
         if matches:
             return matches[0]
 
-        return "Undecided"
+        return fallback_major()
     except Exception as e:
         print(f"Error with OpenAI: {e}")
-        return "Undecided"
+        return fallback_major()
 
 # Electives and skills mapping based on major + high-level job roles
 majors_info = {
@@ -151,6 +230,9 @@ def llm_extract_keywords(goals_list):
         f"Goals:\n{goals_text}\n"
     )
 
+    if not client:
+        return []
+
     try:
         response = client.chat.completions.create(
             model="gpt-3.5-turbo",
@@ -218,17 +300,45 @@ async def get_goals():
 
 @app.post("/goals")
 async def add_goal(goal: Goal):
+    # Keep only the latest goal so each submission is independent.
+    goals.clear()
     goals.append(goal.text)
     # Extract keywords from the latest submitted goal only
     keywords = extract_keywords([goal.text])
-    suggested_major = suggest_major(goals)
+    suggested_major = suggest_major([goal.text])
+
+    # Ensure keywords are useful and related to the selected major.
+    if suggested_major in majors_info:
+        major_skills = [s.lower() for s in majors_info[suggested_major].get("skills", [])]
+        merged = []
+        for k in keywords + major_skills:
+            k = k.lower()
+            if k not in stopwords and k not in merged:
+                merged.append(k)
+            if len(merged) >= 5:
+                break
+        keywords = merged
+
     electives_info = suggest_electives(suggested_major, keywords)
+
+    # Concatenate major + related keywords for downstream processing.
+    downstream_object["major"] = suggested_major
+    downstream_object["keywords"] = keywords
+    downstream_object["major_keywords_concat"] = f"{suggested_major}: {', '.join(keywords)}"
+
+    logger.info("Goal processed: text=%r major=%s keywords=%s", goal.text, suggested_major, keywords)
     return {
         "message": "Goal added successfully",
         "suggested_major": suggested_major,
         "keywords": keywords,
         "electives": electives_info,
+        "downstream_object": downstream_object,
     }
+
+
+@app.get("/downstream-object")
+async def get_downstream_object():
+    return downstream_object
 
 @app.get("/plan")
 async def get_plan():
@@ -251,8 +361,9 @@ async def get_electives():
     if not goals:
         return {"error": "No goals available"}
 
-    keywords = extract_keywords(goals)
-    suggested_major = suggest_major(goals)
+    latest_goal = [goals[-1]]
+    keywords = extract_keywords(latest_goal)
+    suggested_major = suggest_major(latest_goal)
     electives_info = suggest_electives(suggested_major, keywords)
 
     return {

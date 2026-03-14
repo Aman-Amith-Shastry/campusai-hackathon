@@ -1,0 +1,60 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Python virtual environments
+env/
+.venv/
+venv/
+
+# Logs
+*.log
+stuff/backend/backend.log
+
+# Secrets / env files
+.env
+.env.*
+!.env.example
+
+# Node / frontend artifacts
+node_modules/
+stuff/node_modules/
+.npm/
+.pnpm-store/
+
+# Vite / build caches and outputs
+.vite/
+stuff/.vite/
+dist/
+stuff/dist/
+build/
+
+# Databases and local runtime artifacts
+*.db
+*.db-shm
+*.db-wal
+
+# Jupyter
+.ipynb_checkpoints/
+
+# TypeScript cache
+*.tsbuildinfo
