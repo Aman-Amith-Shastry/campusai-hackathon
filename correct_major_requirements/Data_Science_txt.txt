@@ -1,0 +1,156 @@
+skip to content
+u-m// lsa// departments and units// majors and minors// look to michigan// lsa course guide// lsa gateway
+keyword search of en
+about academics research news and events support lsa  course catalog  give online
+
+for
+
+ prospective students current students alumni and friends faculty and staff
+skip to page content
+ 
+academics majors and minors data science major
+academics
+majors and minors
+departments and units
+courses
+lsa degrees
+lsa requirements
+lsa academic policies and procedures
+lsa commitment to academic freedom
+dates and deadlines
+academic integrity
+engaged learning
+stem
+business
+what will you do with an lsa degree?
+data science major
+advising
+department website
+
+effective fall 2024
+
+exclusions:
+
+those completing the major in data science may not earn a minor in data science, computer science or statistics.
+
+advising
+
+faculty advisors are available on both central and north campuses with a common coordinator across the two programs.
+
+grade policies
+
+a grade of c or higher is required for all the required courses including the four required mathematics courses, all the eecs and stats courses used toward the degree requirements, all the advanced technical electives in data science used toward the degree requirements and the capstone experience course.
+
+the grade requirement applies to these courses irrespective of whether they are pre-major or major requirements.
+
+prerequisites
+
+(each with minimum grade of c or higher)
+
+introductory data science: datasci 101/stats 206 (recommended), stats 250, stats 280, ioe 265, or econ 451.
+introductory programming: eecs 180, eecs 183, engr 101, or engr 151.
+calculus i: math 115, math 120, math 185, or math 295.
+calculus ii: math 121, math 116, math 156, math 186, or math 296.
+multivariable calculus: math 205, math 215, or math 285.
+linear algebra: math 214 or math 217.
+
+to declare the major, students must have completed the first four prerequisites: (1) introductory data science; (2) introductory programming; (3) calculus i; (4) calculus ii. the remaining prerequisites (linear algebra and calculus iii) can be taken after declaration. all prerequisites must have a grade of c or better.
+
+requirements
+minimum credits: 42
+
+a minimum of 42 credits is required (each with a minimum grade of c or higher), distributed as follows.
+
+1. program core
+
+eecs 203 (4 credits): discrete mathematics (approved alternative: math 465)
+eecs 280 (4 credits): programming and elementary data structures
+eecs 281 (4 credits): data structures and algorithms
+statistical theory | choose one of the following:
+
+                  stats 412 (3 credits): introduction to probability and statistics
+                  stats/math 425 (3 credits): introduction to probability
+                  stats 426 (3 credits): introduction to theoretical statistics
+
+stats/datasci 413 (4 credits): applied regression analysis
+
+2. additional required courses
+
+machine learning and data mining elective (4 credits): eecs 445 or stats 415
+data management elective (4 credits): eecs 484 or eecs 485
+
+at least one course in each of the following categories. the same course cannot count in more than one category.
+
+one course from the applications electives list. a list of approved courses is available here.
+one course from the advanced technical electives list. a list of approve courses is available here.
+one course in advanced statistical analysis from the following list:
+
+          stats/datasci 306
+          stats/datasci 315
+          statsdatasci 415
+          stats 426
+          stats 449
+          stats/datasci 451
+          stats 470
+          stats 480
+          stats/datasci 485
+          bioinf 545/biostat 646/stats 545
+          bioinf 547/math 547/stats 547
+          stats/datasci 531
+
+additional application electives, advanced technical electives, or advanced statistical analysis electives, as needed to satisfy the 42 credits for the major.
+
+3. capstone experience
+
+a capstone data science course of at least 3 credits must be taken, typically during the senior year. a list of regular courses meeting the capstone requirement is available here. a course taken for capstone credit cannot also count in any of the above categories.  another way to meet the capstone experience requirement is to take an independent study (eecs 499 or stats 489). the latter option will normally involve research in a core aspect of data science or research in a domain area making use of data science methods, possibly as part of an honors degree. the independent study may also document an internship experience that involved substantial activities relating to data science. any path to meeting the capstone requirement other than pre-approved regular courses must be reviewed by a data science advisor. the course grade for an independent study must be based on a final project report documenting the activities undertaken, and the report must be provided to the ds program office.
+
+other department policies
+
+for the purposes of fulfilling the 60-credits outside of the major requirement, all course work from the home departments of eecs and statistics (eecs, stats, and datasci subject areas) are to be considered inside the major department.
+
+for the purposes of calculating the major gpa, all course work from the home departments of eecs and statistics (eecs, stats, and datasci subject areas) are to be included in the major gpa.
+
+residency
+
+a minimum of fifteen (15) credits for the major must be taken on the ann arbor campus.
+
+distribution policy
+
+no course used to fulfill a major requirement may be used toward the lsa distribution requirement. in addition, courses in the stats, datasci and eecs subject areas may not be used toward the distribution requirement.
+
+honors
+
+any lsa data science student with a current grade point average of at least 3.4 may apply for admission to the lsa data science honors major program. such application is made through a statistics department undergraduate advisor. students in the honors program must complete the regular major program with an overall gpa of at least 3.5. in addition, lsa data science honors majors must elect the senior honors seminar (stats 499) and complete a project or a thesis under the direction of a member of the statistics department or eecs faculty.
+
+data science (major) (winter 2024 - summer 2024)
+data science (major) (winter 2023 - fall 2023)
+data science (major) (winter 2021 - fall 2022)
+data science (major) (winter 2019 - fall 2020)
+data science (major) (fall 2016 - fall 2018)
+data science (fall 2015-summer 2016)
+information for
+prospective students
+current students
+faculty and staff
+alumni and friends
+more about lsa
+about lsa
+how do i apply?
+news
+lsa magazine
+give
+maps
+student resources
+courses
+academic advising
+majors and minors
+departments and units
+global studies
+lsa opportunity hub
+connect
+social media
+update contact info
+contact us
+privacy statement
+report feedback
+© 2026 regents of the university of michigan

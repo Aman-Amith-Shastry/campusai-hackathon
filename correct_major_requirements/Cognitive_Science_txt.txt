@@ -1,0 +1,188 @@
+skip to content
+u-m// lsa// departments and units// majors and minors// look to michigan// lsa course guide// lsa gateway
+keyword search of en
+about academics research news and events support lsa  course catalog  give online
+
+for
+
+ prospective students current students alumni and friends faculty and staff
+skip to page content
+ 
+academics majors and minors cognitive science major
+academics
+majors and minors
+departments and units
+courses
+lsa degrees
+lsa requirements
+lsa academic policies and procedures
+lsa commitment to academic freedom
+dates and deadlines
+academic integrity
+engaged learning
+stem
+business
+what will you do with an lsa degree?
+cognitive science major
+advising
+department website
+
+effective winter 2025
+
+advising
+
+advising appointments can be made here; or by contacting weinberg-institute@umich.edu.
+
+grade policies
+
+cognitive science majors must earn a grade of at least c- in all courses taken to satisfy the requirements of the major (including the major gateway/prerequisite course, cogsci 200).
+
+prerequisites
+cogsci 200: introduction to cognitive science (previously completed, or are currently enrolled).
+some specific courses on the various tracks have prerequisites. see our enrollment guide for details.
+requirements
+minimum credits: 27
+
+the major consists of 9 courses (a minimum of 27 credits), structured into four tracks. each track (computation, decision, philosophy, language) represents a major area of research within contemporary cognitive science.
+each track consists of:
+
+3 required track courses
+6 electives
+4 elective courses chosen from a track-specific list.
+2 elective courses chosen from the cognitive science masterlist
+
+note: the combined set of students' required and elective courses must be selected from a minimum of three departments (example: students on the decision and cognition track must complete at least one course from outside of psych and phil).
+
+computation and cognition track
+a foundational idea of cognitive science is that mental processes are computational, and computation remains central to (but not the exclusive domain of) the field. the computation and cognition track requires students to take coursework in psychology and computer programming. subsequent depth courses emphasize — although not exclusively so — computational and formal methods including machine learning, computational linguistics, rational choice theory, and artificial intelligence.
+
+required track courses (3 courses)
+
+choose one:
+psych 240: introduction to cognitive psychology
+psych 345: introduction to human neuropsychology
+eecs 281: data structures and algorithms
+choose one:
+eecs 492: introduction to artificial intelligence
+eecs 445: introduction to machine learning
+cogsci 445: introduction to machine learning for natural language processing
+
+electives (6 courses)
+choose 4 elective courses chosen from the computation track list
+choose 2 elective courses chosen from the cog sci masterlist
+
+decision and cognition track
+the study of decision and choice is a lively area of contemporary cognitive science inquiry, and the decision and cognition track provides students with sustained engagement with this field. students are presented with theoretical approaches to judgment and decision-making from psychology, neurocircuit models of reward and reinforcement from neurobiology, algorithmic models of planning and action selection from computer science, formal approaches to rational choice from philosophy, political science, and cutting-edge approaches to understanding irrationality from behavioral economics. the required courses in the decision and cognition track give students an introduction to historically influential approaches to decision-making drawn from psychology and philosophy. students then have the opportunity to take coursework in a number of disciplines that approach decision-making from diverse but complementary theoretical and applied perspectives.
+
+required track courses (3 courses)
+
+choose one:
+phil 215: practicing ethics
+phil 361: ethics
+choose one:
+phil 342: introduction to theory of choice in groups
+phil 343: introduction to rational choice theory
+phil 443: foundations of rational choice theory
+phil 444: groups and choices
+psych 449: decision processes
+
+electives (6 courses)
+choose 4 elective courses chosen from the decision track list
+choose 2 elective courses chosen from the cog sci masterlist
+
+language and cognition track
+because human language is universal in the species and grounded in human cognition and biology, linguistic inquiry was an integral component of the cognitive science revolution. contemporary approaches to language synthesize models and findings from multiple disciplines, and the proposed curriculum is correspondingly interdisciplinary. the language and cognition track gives students a solid theoretical introduction to language through required coursework in linguistics, and in the philosophy and psychology of language. further coursework broadens the investigation of language to include topics in computational linguistics and computer science, formal methods, and language development and learning.
+
+required track courses (3 courses)
+
+choose one:
+ling 313: sound patterns
+ling 315: introduction to syntax
+ling 316: aspects of meaning
+choose one:
+phil 345: language and mind
+phil 409: philosophy of language
+phil 426 / ling 426: philosophy & linguistic theory
+ling 209 / psych 242 / cogsci 209: language and the human mind
+choose one:
+ling 347 / psych 349: talking minds
+ling / psych 352: development of language and thought
+ling / cogsci / neuro 432 / psych 444: introduction to neurolinguistics
+
+electives (6 courses)
+choose 4 elective courses from the language track list
+choose 2 elective courses chosen from the cog sci masterlist
+
+philosophy and cognition track
+there is extensive interaction between contemporary philosophy, especially philosophy of mind and ethics, and cognitive science. philosophers have long posed fundamental questions about the nature of minds, consciousness, the relationship between the mental and physical, and the nature of human agency. cognitive science provides a rich and ever-expanding body of theory, models, and findings that are relevant to these timeless philosophical questions. the philosophy and cognition track requires coursework in core philosophical, formal and cognitive approaches to mind. more in-depth coursework allows students to deepen their understanding of the philosophical problems and analytical enigmas raised by language and other symbolic systems, artificial intelligence, inference and reasoning, and decision-making.
+
+required track courses (3 courses)
+
+choose one:
+psych 240: introduction to cognitive psychology
+psych 345: introduction to human neuropsychology
+choose one:
+phil 340: minds and machines
+phil 482: philosophy of mind
+choose one:
+phil 303: introduction to symbolic logic
+phil 305: introduction to formal philosophical methods
+phil 322: the methods of science
+phil 413: formal philosophical methods
+
+electives (6 courses)
+choose 4 elective courses chosen from the philosophy track list
+choose 2 elective courses chosen from the cog sci masterlist
+
+constraints
+double-majoring. many cognitive science students choose to pursue second majors. however, only three courses can be counted towards both majors.
+independent study. students may take a minimum of three credits of independent study (cogsci 497 or 498) to fulfill one elective requirement or six credits (cogsci 497 and either 498 or 499) to fulfill two elective requirements.
+residency. at least 5 of the 9 courses that fulfill the cognitive science major must be taken in residence. in residence courses are those elected on the ann arbor campus or at off-campus sites directed by ann arbor faculty; including cgis study abroad programs (stdabrd), camp davis, biological station, and michigan-in-washington.
+research course options. a research foundation is an important part of many of the paths our students choose to pursue, thus, the following courses are an option for all tracks as electives. however, students may only count one of these courses towards their cognitive science curriculum.
+ling 343: understanding data through computing
+psych 302: research methods in cognitive neuroscience
+psych 303: research methods in psychology
+psych 331: research methods in brain, behavior, and cognition science
+psych 341: advanced lab in cognitive psychology
+distribution policy
+
+no course used to fulfill a major requirement may be used toward the lsa distribution requirement. in addition, courses in the cogsci subject area may not be used toward the distribution requirement.
+
+honors
+
+honors in cognitive science gives students with strong academic performance the opportunity for an in-depth research experience under the close supervision of a faculty mentor. cognitive science students interested in pursuing honors will submit an interest form by december of their junior year, followed by an official application in september of the following year (senior year). the honors plan will be added to the student's major after the submission of the interest form, provided they are within range to graduate with a 3.4 gpa. the application will include a research proposal with timeline and must be signed by the faculty mentor. applications will be reviewed by the cognitive science director & assistant director to ensure that the project falls within cognitive science. cognitive science honors students will have the option to earn independent study credit for their thesis in the fall (cogsci 497) and/or winter (cogsci 499) semesters. if a student chooses to enroll in these courses, the courses will count toward the minimum of three credits of independent study to fulfill one elective requirement or six credits to fulfill two elective requirements (see independent study constraints above). to graduate with honors, students must have a minimum cumulative gpa of 3.4 and complete an approved cognitive science honors thesis.
+
+cognitive science (major) (winter 2024 - fall 2024)
+cognitive science (major) (fall 2023)
+cognitive science (major) (fall 2021 - summer 2023)
+cognitive science (major) (fall 2020 - summer 2021)
+cognitive science (major) (fall 2019 - summer 2020)
+cognitive science (major) (winter 2019 - summer 2019)
+cognitive science (major) (fall 2016 - fall 2018)
+cognitive science major (winter 2014-summer 2016)
+information for
+prospective students
+current students
+faculty and staff
+alumni and friends
+more about lsa
+about lsa
+how do i apply?
+news
+lsa magazine
+give
+maps
+student resources
+courses
+academic advising
+majors and minors
+departments and units
+global studies
+lsa opportunity hub
+connect
+social media
+update contact info
+contact us
+privacy statement
+report feedback
+© 2026 regents of the university of michigan
