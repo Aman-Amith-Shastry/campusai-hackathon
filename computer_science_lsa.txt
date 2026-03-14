@@ -1,0 +1,834 @@
+﻿Computer Science Program – LSA  
+ 
+__________________________________________________________________________________________________________________________________________________________________________________________________ 
+Fall 2025-Winter 2026 Program Guide
+__________________________________________________________________________________________________________________________________________________________________________________________________ 
+Welcome!
+ 
+Thank you for your interest in the EECS Department's Computer Science program in the College of Literature, Science, and the Arts. The fast rate of innovation in computer technology has created many new, exciting opportunities for students with Computer Science undergraduate degrees. Employment opportunities include positions in artificial intelligence, machine learning, medicine, security, business management, consulting, software engineering, game design, computer systems analysis, data communications administration, robotics, hardware development, and many others. Major employers of recent graduates include many prominent U.S. corporations and research laboratories, such as Amazon, Apple, AT&T, Bloomberg, Capital One Charles Scwab, Cisco, Deutsche Bank, Electronic Arts (EA), Google, IBM, Intel, JPMorgan Chase, Meta, and Microsoft, (to name a few). Some students also join (or even found) start-ups! In addition, an undergraduate degree in CS provides opportunities for masters, doctoral, and professional studies in various fields.
+Computer science is an exceptional field. Computers have been around for only 70 years while most other scientific disciplines have been around for centuries. Progress in computer science has been extraordinarily rapid during this period, and computers have had a profound impact on society. (Can you envision life without cell phones, Wi-Fi, and the Internet?) Computer science research has provided much of the intellectual foundation and creative energy that has fueled that transformation, and it continues to be an extremely exciting field.
+Advising
+Students considering a CS major should meet with a CS academic advisor. While general LSA advisors can help point you in the right direction, you should seek the details of declaration requirements and course planning from a CS-LSA department advisor for the most up-to-date information. Declared students and future CS students should schedule an appointment at least once per term, even if you know what you want to take. Careful planning and frequent review of requirements will help ensure you will have no problems at declaration or graduation time. 
+ 
+* The CS-LSA department advisors do not provide any advice or guidance on meeting LSA overall degree requirements. Please review these periodically with an LSA Advisor. Students can make an appointment with the LSA Newnan Advising Center here. 
+* When you declare, you will be added automatically to a CS-LSA email list. Announcements are sent periodically and include information about courses and academic matters, as well as extracurricular opportunities. Declared CS-LSA majors also have access to the Engineering Career Resource Center (ECRC) for finding internships, co-ops, and jobs.
+* Declaring the CS-LSA major will impact an LSA student’s U-M tuition. Always seek advice early and often to use your time, energy, and tuition most expediently.
+ 
+Check the CSE Advising site for information about registration procedures, course offerings, drop-in advising hours, and career information. You may contact the CSE Undergraduate Advising Office at 1270 Leinweber,  ugadmin@eecs.umich.edu, or (734) 763-6563.
+Declaration Requirements (Students declaring Fall 2024 or later)
+CS-LSA major declaration requires all of the following:
+ 
+1. Students admitted to the University of Michigan Fall 2023 or later: must be selected to study CS through one of the approved selection pathways in order to declare CS-LSA. 
+2. Completion of three pre-declaration requirements, all with a grade of C or better (no Optional P/F):
+   1. One approved math course 
+   2. EECS 203 or equivalent
+   3. EECS 280
+3. Academic Good Standing (i.e., not on Academic Progress Notice 1, Academic Progress Notice 2, or Academic Recess).
+ 
+Please note:
+* Please consult an advisor with questions regarding math courses not listed below.
+* Math departmental credit (MATH 101X, etc.) and/or “placing out” of a particular course in the Math department cannot be used for CS-LSA declaration. Your transcript must show posted AP credit, or actual math courses.
+* MATH 465 or 565 can satisfy the EECS 203 requirement, but require significantly more mathematical background than EECS 203. Seek advising from the Math department before choosing these.
+* The declaration requirements can be complex to interpret. Meeting with a CS advisor early is essential.                           
+CS-LSA Math Requirements (Students declaring Fall 2024 or later)
+Students must take two math courses, one each from different categories below. One is required prior to declaration, the other can be completed after declaration:
+   1. Calculus I: MATH 115, 120, 185, 295
+   2. Calculus II: MATH 116, 121, 156, 186, 276, 296
+   3. Linear Algebra: MATH 214, 217, 417, 419
+   4. Multivariable Calculus: MATH 205, 215, 285
+   5. Differential Equations: MATH 216, 286, 316
+CS-LSA Program Requirements
+  CS Prerequisite Courses
+1. EECS 203 or equivalent
+2. EECS 280
+3. Two math courses, as described above. Only one needs to be completed prior to declaration.
+
+
+  CS Core Courses
+
+
+1. Computer Science (all three of the following): EECS 281, EECS 370, and EECS 376.
+2. Probability & Statistics (one of the following): STATS 250, DATASCI 101, STATS 280, STATS 412, STATS 426, EECS 301, ECON 451, IOE 265, or TO 301 or MATH/STATS 425 or MATH/STATS 525 or MATH/STATS 526. Students with credit from Statistics AP exams should pursue STATS 280 for this requirement.
+
+
+Upper Level CS Technical Electives (ULCS)
+15 credits must be in approved Upper Level CS (ULCS) Electives, which are challenging and substantial courses covering a variety of topics in computing. 
+
+
+At least 12 credits must be from the ULCS list, while the remaining 3 credits can be from the Expanded ULCS list. 
+
+
+Please note: 
+* All ULCS are included in the Expanded ULCS list. 
+* Students must be declared CS-LSA before they can register for ULCS courses. Some Expanded ULCS courses are more flexible. 
+* Students who declared CS-LSA prior to Fall 2024 who have completed or plan to complete a 3 credit Expanded ULCS will need to notify the Undergraduate Advising Office during their major release request process. 
+* ULCS elective credit is rarely transferable from an outside institution. See pg. 8 for suggestions in selecting your ULCS with CS-LSA Tracks. Some special topics courses are designated as ULCS in certain terms.
+* Note: An EECS course may only count toward one requirement—either ULCS or Capstone, not both.
+
+
+
+
+Capstone Course
+Students must take an approved EECS CS Capstone course to fulfill the Capstone requirement. A Capstone is often taken during the final year in order to take the best advantage of technical knowledge gained in all previous courses. Some special topics courses are designated as Capstone in certain terms. Students considering pursuit of an Honors thesis (EECS 443) should schedule an appointment to speak with a CS-LSA advisor. 
+ 
+________________
+Prerequisites
+  
+
+	
+
+	Prerequisites
+	
+
+	EECS 281
+	EECS 370
+	EECS 376
+	Linear Algebra
+	Additional requirements
+	EECS 367
+	●
+	
+
+	
+
+	●
+	
+
+	EECS 373
+	
+
+	●
+	
+
+	
+
+	EECS 270
+	EECS 388
+	●
+	Advisory
+	
+
+	
+
+	EECS 201 Advisory
+	EECS 390
+	●
+	
+
+	
+
+	
+
+	
+
+	EECS 427
+	
+
+	
+
+	
+
+	
+
+	EECS 270, 312
+	EECS 440
+	●
+	
+
+	
+
+	
+
+	
+
+	EECS 441
+	●
+	
+
+	
+
+	
+
+	See CoE Bulletin
+	EECS 442
+	●
+	
+
+	
+
+	●
+	
+
+	EECS 445
+	●
+	
+
+	
+
+	●
+	
+
+	EECS 448
+	●
+	
+
+	
+
+	●
+	
+
+	EECS 449
+	●
+	
+
+	
+
+	
+
+	
+
+	EECS 467
+	●
+	
+
+	
+
+	●
+	EECS 367
+	EECS 470
+	
+
+	●
+	
+
+	
+
+	EECS 270
+	EECS 471
+	●
+	●
+	
+
+	
+
+	
+
+	EECS 472
+	
+
+	
+
+	
+
+	
+
+	EECS 470
+	EECS 473
+	●
+	
+
+	
+
+	
+
+	EECS 373
+	EECS 474
+	
+
+	
+
+	Advisory
+	●
+	Probability/Stats
+	EECS 475
+	
+
+	
+
+	Advisory
+	
+
+	
+
+	EECS 476
+	●
+	
+
+	
+
+	●
+	
+
+	EECS 477
+	●
+	
+
+	Advisory
+	
+
+	
+
+	EECS 478
+	
+
+	
+
+	
+
+	
+
+	EECS 203, 270
+	EECS 479
+	
+
+	●
+	
+
+	Advisory
+	EECS 280
+	EECS 480
+	
+
+	
+
+	
+
+	
+
+	EECS 485 or 493
+	EECS 481
+	●
+	
+
+	
+
+	
+
+	
+
+	EECS 482
+	●
+	●
+	
+
+	
+
+	
+
+	EECS 483
+	●
+	●
+	
+
+	
+
+	
+
+	EECS 484
+	●
+	
+
+	
+
+	
+
+	
+
+	EECS 485
+	●
+	
+
+	
+
+	
+
+	
+
+	EECS 486
+	●
+	
+
+	
+
+	
+
+	
+
+	EECS 487
+	●
+	
+
+	
+
+	
+
+	
+
+	EECS 489
+	●
+	●
+	
+
+	
+
+	
+
+	EECS 490
+	●
+	
+
+	
+
+	
+
+	
+
+	EECS 491
+	●
+	
+
+	
+
+	
+
+	
+
+	EECS 492
+	●
+	
+
+	
+
+	
+
+	
+
+	EECS 493
+	●
+	
+
+	
+
+	
+
+	
+
+	EECS 494
+	●
+	
+
+	
+
+	
+
+	
+
+	EECS 495
+	●
+	
+
+	
+
+	
+
+	
+
+	EECS 497
+	●
+	
+
+	
+
+	
+
+	
+
+	CSE 596
+	EECS 281 or 373
+	
+
+	
+
+	
+
+	
+
+	Choosing Bachelor of Arts (B.A.) and Bachelor of Science (B.S.) 
+The B.S. degree differs from the B.A. in requiring that 60 credits (out of the 120 total) be from the physical and natural sciences or mathematics. EECS courses, along with other core courses such as STATS 250, contribute to the 60 credits. When you declare, you can elect to pursue a Bachelor of Art or Bachelor of Science. Most CS-LSA majors will reach the 60 credit threshold for a Bachelor of Science as the 55 credits in the Sample Schedule on page 4 qualify as B.S. courses. 
+ 
+CS Honors Program
+The Honors Program in Computer Science is open to LSA students completing the Computer Science B.S. degree program. Students can earn an Honors degree in Computer Science without having been enrolled in the LSA Honors Program in the first and second years at U-M. Students are responsible for finding a faculty mentor whose research area aligns with their interest(s) and who is willing to oversee the thesis project. A summary of requirements is below; see the CS Honors Program handout for more detailed information:
+
+
+* 3.5 GPA in the CS major
+* Must complete a CS Honors thesis course (EECS 443), write an original thesus that is evaluated and deemed worthy of honors, and give an oral presentation of the thesis
+* 3.4 overall UM GPA at the time of graduation
+
+
+ 
+Pursuing Additional Major(s): 
+Students pursuing CS-LSA in addition to one or more other majors must ensure they have devoted significant, independent work toward each major. To that end, students should consult with a CS-LSA department advisor to ensure compliance.
+
+
+Course Planning
+Below is a plan to help students envision how requirements may fit together over the course of their time at Michigan. This plan is only a sample; it is not necessary to follow the below plan exactly outside of following prerequisite chains. 
+
+Students can reference the EECS course descriptions and Atlas for a basic introduction to our courses. CSE Peer Advisors have also developed an ULCS/Senior Design Info Sheet providing student narratives about their experiences in our courses. Several core course syllabi are also available at the link provided. For more planning assistance, students should schedule an appointment with an advisor on the EECS undergraduate website
+
+
+CSE Course Tagging
+The CS course list includes a tab for CSE Course Tagging. Based on instructor feedback each course on the list has been tagged with one or more concepts that are covered in the course. For full course information, always check with individual instructions (listed in WA) or course sites available via CSE Course Info Page (eecs.io). Note that MDE courses may have an overrepresentation of tags given the wide range of topics that can be pursued in course projects. 
+CS-LSA Sample Schedule
+SAMPLE SCHEDULE FOR COMPUTER SCIENCE – LSA
+	 
+	Credits
+	Term 1
+	T2
+	T3
+	T4
+	T5
+	T6
+	T7
+	T8
+	Programming Prerequisite Course (must be taken before EECS 280)
+	EECS 183 Elementary Programming Concepts
+	4
+	4
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	Pre-Declaration Reqs. – must have a final letter grade posted (C or higher) to declare (12 hours)
+	Approved Math Course
+	4
+	4
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	EECS 203 or MATH 465 or MATH 565
+	4
+	-
+	4
+	-
+	-
+	-
+	-
+	-
+	-
+	EECS 280 Programming and Introductory Data Structures
+	4
+	-
+	4
+	-
+	-
+	-
+	-
+	-
+	-
+	Program Core (20 hours)
+	Second Approved Math Course
+	4
+	-
+	-
+	-
+	4
+	-
+	-
+	-
+	-
+	EECS 281 Data Structures and Algorithms
+	4
+	-
+	-
+	4
+	-
+	-
+	-
+	-
+	-
+	EECS 370 Introduction to Computer Organization
+	4
+	-
+	-
+	-
+	-
+	4
+	-
+	-
+	-
+	EECS 376 Foundations of Computer Science
+	4
+	-
+	-
+	-
+	-
+	4
+	-
+	-
+	-
+	STATS 250, DATASCI 101, STATS 280, STATS 412, STATS 426, EECS 301, ECON 451, IOE 265, or TO 301 or MATH/STATS 425 or MATH/STATS 525 or MATH/STATS 526. 
+	4
+	-
+	-
+	-
+	4
+	-
+	-
+	-
+	-
+	Upper Level CS Electives (15 hours)
+	Upper Level CS Technical Electives*
+	15
+	-
+	-
+	-
+	-
+	-
+	4
+	4
+	7
+	Capstone Course (4 hours)
+	Approved Capstone
+	4
+	-
+	-
+	-
+	-
+	-
+	-
+	4
+	-
+	Total CS-LSA (55 hours)
+	54-55
+	8
+	8
+	4
+	8
+	8
+	4
+	8
+	7
+	LSA Requirements: See an LSA Advisor in the Newnan Academic Advising Center to discuss these College requirements.
+	*ULCS: Approved Computer Science courses at the 300-level or higher; see page 2 for a list of approved courses.  
+Note: Credits from a course may only be used to fulfill a single CS degree requirement (no double counting).
+	
+
+Major Grading & Repeat Policies
+Our full grade policy can be found on the CSE website. Grades of “C” or better must be achieved in all courses used to satisfy the pre-declaration and other major requirements. A grade of “C-” or below is considered a failing grade and the course must be repeated or substituted with another class. 
+
+
+If you currently have an Incomplete grade due to an Honor Code violation, you may proceed with the EECS coursework via override. Please submit an override request to enroll in courses that your Incomplete grade serves as a prerequisite to. If this Honor Code Incomplete is in a pre-declaration requirement, you can proceed with declaring CS-LSA as your major once all other pre-declaration requirements are met. However, if you receive a final grade below a C after an Honor Code violation, you are required to retake the course for a C or higher letter grade. This retake must be completed as soon as possible, and can be taken alongside other EECS courses, even if your failed class typically serves as a prerequisite. If an override is needed, please submit one here and attach any communication about your Honor Code decision in the form.
+For questions about your case, please contact honorcouncil-admin@umich.edu.
+________________
+
+
+General Advice and Departmental Opportunities 
+General Advice
+* Mental Health: If you’re feeling stressed, depressed, or just need someone to talk to, there are many places to find support on campus.
+* Information from Friends: Your friends can be a good source of information on certain topics, like the workload in courses they have taken. However, they can be an unreliable source of information for details of program and college requirements. For specific questions about program requirements, always check with the advising office rather than relying on word-of-mouth.
+* Course Sequencing and Workload: Student feedback about workload in CS courses can be found online. There is considerable variance for courses because different students find different aspects of courses challenging (writing complicated programs, understanding math concepts, etc.) Below is a summary synthesizing workload survey data with other relevant course information to estimate workload:
+   * Extremely heavy workload: 427, 467, 470, 473, 482, 494
+   * Heavy workload: 281, 373, 445, 483, 485, 491
+   * Moderate workload: 183, 203, 280, 285, 367, 370, 376, 388, 390, 441, 442, 448, 471, 475, 477, 478, 481, 484, 487, 489, 490, 492, 493
+   * Light workload: 449, 486, 495, 497 
+* CS courses can be more demanding relative to many courses at the University, so we advise students to avoid overloading themselves. For most CS students, a load of 2 CS courses in the same semester is normal, but that can vary based on the combination of CS courses chosen (e.g., a CS course with an extremely heavy load should only be paired with one with a moderate load or less), as well as what non-CS courses are being taken at the same time. We encourage students to talk with CSE advisors if they have questions about the course load they are considering. 
+* EECS 203 & EECS 280: Taking EECS 203 (Discrete Mathematics) and EECS 280 (Programming) simultaneously often works well, and these are the prereqs for the "gateway" course, EECS 281 (Data Structures & Algorithms). 
+* EECS 281: Take EECS 281 as soon as you can. This is the "gateway" course to all Upper Level CS Courses.
+Departmental Opportunities
+* Research: A great deal of leading-edge academic research is carried out at UM. If you show that you can do the work, you can get involved in this research as an undergraduate, which will provide you with extraordinarily valuable training for future work in the field. 
+* Teaching—Become an Instructional Aid: The lab sections for EECS 183, EECS 280, EECS 281, and most other EECS courses ) are led primarily by undergraduates. As a section leader, you will have the chance to teach the next generation of CSE majors and get them excited about computing. Look for IA hiring announcements via email each term.
+* Mentoring—Become a Peer Advisor: Share your experiences with other undergraduates. If you are interested, check in with the CSE Undergraduate Advising Office for information. Opportunities are available at both the department and CoE levels.
+* Getting Involved—Join an EECS Student Group: Enhance your undergraduate experience and resume by joining a student group.
+* Getting Experience—Internships, Co-ops, and Job Opportunities: Many companies hire students for internships upon completion of EECS 281 (for some, even after EECS 280!). You can view current CS intern & job opportunities through the Engineering Career Resource Center (ECRC) or through the fall and winter Career Fairs. 
+________________
+
+
+CS-LSA Tracks 
+ 
+These course combinations are optional. A student may instead complete 15 credits of Upper Level CS Technical Electives (ULCS) as described above. To help students interested in a particular career path, or those wanting to explore different areas, see the topic-specific list of ULCS combinations below. These combinations, approved by the CS-LSA Chief Program Advisor, would fulfill the ULCS requirement, if completed. 
+
+
+Note that you may take at most one 500-level EECS or CSE course to satisfy the requirements of any track. When successfully completing a track, the one 500-level EECS/CSE course can count towards your ULCS credit requirements. 
+
+
+  
+
+	Artificial Intelligence: AI is a broadly based multidisciplinary area comprising theoretical, experimental, and applied investigations of intelligent systems. Required: 1) EECS 492; 2) EECS 445 or 545; 3) one of EECS 442, EECS 487, CSE 543, or CSE 595; and 4) a 4th ULCS or Expanded ULCS of student’s choice. Note: you may take at most one 500-level EECS/CSE or Expanded ULCS course for the above requirements.
+	  
+
+	Bioinformatics (track is no longer available to pursue WN24 and beyond): Computation plays an increasingly important role in modern biology. This is an interdisciplinary track. Required: three ULCS courses- 1) at least two of: EECS 445, 477, 484, 485, 492; 2) a 3rd  ULCS course of student’s choice; 3) BIOINF 529; and 4) BIOLOGY 305 or MCDB 310. This track is not open to Biology Majors.
+	  
+
+	Data and Information: Fast information storage and retrieval are crucial to many computer applications, and manipulating large data collections on servers or networks pose difficult challenges for computer professionals. Required: 1) EECS 445; 2) EECS 484; 3) one of EECS 477, 482, 485, 492; and 4) 4th ULCS or Expanded ULCS of student’s choice.
+	  
+
+	Economics and Computation: As social and market interactions become more computational, computer science has adopted more traditional economic concepts such as decentralized decision-making and allocation of resources. This is an interdisciplinary track. Required: 1) EECS 492; 2) at least two of: EECS 475, EECS 485, CSE 588; 3) ECON 401; and 4) one of: ECON 406, 409, 431, 442. This track is not open to Economics Majors.
+	  
+
+	Robotics and Vision: Until recently most robots were stationery manufacturing devices, but they are rapidly evolving into mobile information gathering and decision-making platforms, with vision being perhaps their most important information gathering capability. Required: 1) EECS 467; 2) EECS 442; 3) one of: EECS 492, EECS 445, EECS 542, CSE 543, EECS 567, EECS 568; and 4) a 4th ULCS or Expanded ULCS course of student’s choice. Note: you may take at most one 500-level EECS/CSE or Expanded ULCS course for the above requirements.
+	  
+
+	Security: Security for hardware, software, and networked systems is one of the fastest growing areas of computer science. Required: 1) EECS 388; 2) EECS 475 or CSE 575; 3) EECS 482, 484, or 485; and 4) a 4th ULCS or Expanded ULCS of student’s choice. Note: you may take at most one 500-level EECS/CSE or Expanded ULCS course for the above requirements.
+	  
+
+	Software Development: Designing and developing large software systems is a formidable engineering challenge and is the primary enterprise of the software industry. Required: 1) EECS 481; 2) EECS 477; 3) EECS 485 (if taken in FA24 or earlier) or EECS 390; and 4) a 4th ULCS or Expanded ULCS of student’s choice.
+	  
+
+	Software Systems: Software systems are the tools and applications we use when we compute. Required: 1) at least three of: EECS 388, 482, 483, 484, 489; and 2) a 4th ULCS or Expanded ULCS of student’s choice.
+	  
+
+	Theory of Computation: Research on mathematical foundations has enormously influenced the development of computer science, yielding advances in data management, communications, security, and many other areas. This is an interdisciplinary track. Required: 1) EECS 477; 2) EECS 445 or 475; 3) one of: CSE 574, 575, 586; and 4) two of the following: Math 412, 465, 425, 475, Stats 426, IOE 510, 512, 518, and ECE550. This track is not open to Math Majors.
+	 
+* If a course is used as a CS-LSA Major Core Course, it may not also count for a CS-LSA Track course (no double counting).
+
+
+Progress Sheet and GPA Calculation
+
+
+	Introductory Programming: 4 credits
+	Name:
+	Course
+	Hrs.
+	Term
+	Grade
+	Note
+	UMID:
+	EECS 183
+	4
+	 
+	 
+	 
+	Date:
+	Pre-Declaration Requirements: 12 Credits
+	Upper Level CS Electives: 15 Credits
+	Course
+	Hrs.
+	Term
+	Grade
+	Note
+	Course
+	Hrs.
+	Term
+	Grade
+	Note
+	Math Course**
+	4
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	EECS 203*
+	4
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	EECS 280
+	4
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	*or Math 465/565
+**see approved math courses
+	 
+	 
+	 
+	 
+	 
+	CS Program Core: 20 Credits
+	Capstone Course: 3-4 Credits
+	Course
+	Hrs.
+	Term
+	Grade
+	Note
+	Course
+	Hrs.
+	Term
+	Grade
+	Note
+	Math Course**
+	4
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	EECS 281
+	4
+	 
+	 
+	 
+	LSA College Requirements
+	EECS 370
+	4
+	 
+	 
+	 
+	College Requirements: Students must consult with their LSA Newnan Advisor, 1255 Angell Hall, to discuss LSA College requirements.
+	EECS 376
+	4
+	 
+	 
+	 
+	STATS 250*
+	4
+	 
+	 
+	 
+	*STATS 280, STATS 412, STATS 426, EECS 301, ECON 451, IOE 265, or TO 301 can also fulfill this requirement.
+**see approved math courses
+	TOTAL CTP:
+	CS Major GPA:
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	Calculating Your CS Major GPA: GPA=MHP/MSH
+You must include all EECS courses: EECS 183, EECS 203, EECS 280, CS Program Core, ULCS, Capstone course (CS MDE course or CS honors thesis course), and Stats 250/412/approved Stats requirement course. Do not include Math 115/116. You must have an overall CS Major GPA* of at least 2.0 in order to graduate!
+ MHP = Michigan Honors Points
+MSH = Michigan Semester Hours
+* Can be found on your U-M transcript (official or unofficial).
