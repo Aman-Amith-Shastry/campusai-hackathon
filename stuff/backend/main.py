@@ -9,6 +9,10 @@ import logging
 from pathlib import Path
 from difflib import get_close_matches
 from openai import OpenAI
+from langchain_openai import ChatOpenAI
+from langchain.agents import create_agent
+
+from langchain_tools import GetCourseDetailTool, RetrieveMajorInfoTool, SearchCoursesTool  # defined in langchain_tools.py
 
 app = FastAPI()
 
@@ -80,6 +84,25 @@ MAJORS_LIST = load_majors(Path(__file__).resolve().parents[1] / 'Majors.csv')
 openai_api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=openai_api_key) if openai_api_key else None
 
+llm = ChatOpenAI(model="gpt-4.1", temperature=0.3)
+tools = [RetrieveMajorInfoTool(), GetCourseDetailTool()]  # retriever_tool defined in langchain_tools.py
+
+
+class SemesterPlan(BaseModel):
+    semester: str
+    goals: List[str]
+    description: str
+
+class FullPlan(BaseModel):
+    plan: List[SemesterPlan]
+
+agent = create_agent(
+    model=llm,
+    tools=tools,
+    system_prompt="You can use retrieve_major_reqs to look up requirement info when needed.",
+    response_format=FullPlan
+)
+
 def suggest_major(goals_list):
     if not goals_list:
         return "Undecided"
@@ -141,7 +164,7 @@ def suggest_major(goals_list):
 
     try:
         response = client.chat.completions.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4.1",
             messages=[{"role": "user", "content": prompt}],
             max_tokens=50,
         )
@@ -341,33 +364,71 @@ async def get_downstream_object():
     return downstream_object
 
 @app.get("/plan")
-async def get_plan():
+async def get_plan(use_agent: bool = True):
+
+    if use_agent:
+        major = downstream_object["major"]
+        keywords = downstream_object["keywords"]
+        user_goals = " ".join(keywords)
+
+        system_prompt = """"You are an academic planner agent. You have access to tools:
+            • retrieve_major_reqs (to get requirements by query)
+            • search_courses (to find courses by search terms)
+
+            Your job is to plan an 8-semester schedule for the user
+            that satisfies all requirements and aligns with their interests.
+            You are given keywords: {keywords_list}.
+            When you need requirement info, call retrieve_major_reqs.
+            When you want course details, use search_courses.
+
+            Respond with steps and call tools as needed.
+            """
+        # Build a prompt that tells the agent what to do with tools
+        prompt = (
+            f"I am interested in {major} based on these keywords: {keywords} and these goals: {user_goals}. "
+            "Plan an 8-semester course schedule grounded in requirements."
+        )
+
+        # Agent expects a list of messages with role and content
+        result = agent.invoke({
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": prompt}
+            ]
+        })
+
+        logger.info(result)
+
+        structured_output = result["structured_response"]
+
     if not goals:
         return {"error": "No goals available"}
     
     # Simple computation: distribute goals across 8 semesters
     plan = []
-    for i in range(8):
-        semester_goals = goals[i % len(goals): (i+1) % len(goals) or None] if goals else []
+    i = 0
+    for sem_plan in structured_output.plan:
         plan.append({
             "semester": f"Semester {i+1}",
-            "goals": semester_goals,
-            "description": f"Focus on {', '.join(semester_goals[:2])} and more." if semester_goals else "No specific goals for this semester."
+            "goals": sem_plan.goals,
+            "description": sem_plan.description,        
         })
+
+        i += 1
     return plan
 
-@app.get("/electives")
-async def get_electives():
-    if not goals:
-        return {"error": "No goals available"}
+# @app.get("/electives")
+# async def get_electives():
+#     if not goals:
+#         return {"error": "No goals available"}
 
-    latest_goal = [goals[-1]]
-    keywords = extract_keywords(latest_goal)
-    suggested_major = suggest_major(latest_goal)
-    electives_info = suggest_electives(suggested_major, keywords)
+#     latest_goal = [goals[-1]]
+#     keywords = extract_keywords(latest_goal)
+#     suggested_major = suggest_major(latest_goal)
+#     electives_info = suggest_electives(suggested_major, keywords)
 
-    return {
-        "major": suggested_major,
-        "keywords": keywords,
-        "electives": electives_info,
-    }
+#     return {
+#         "major": suggested_major,
+#         "keywords": keywords,
+#         "electives": electives_info,
+#     }
